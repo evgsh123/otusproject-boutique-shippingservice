@@ -10,7 +10,7 @@ jobs:
   run:
     uses: "evgsh123/otusproject-apps-cd/.github/workflows/workflow.yaml@main"
     with:
-      name: "shippingservice"
+      name: "shippingService"
       JOBID: "${{ github.run_number }}"
     secrets:
       YC_SA_JSON_CREDENTIALS: ${{ secrets.YC_SA_JSON_CREDENTIALS }}
