@@ -10,7 +10,7 @@ jobs:
   run:
     uses: "evgsh123/otusproject-apps-cd/.github/workflows/prod.yaml@main"
     with:
-      name: "frontend"
+      name: "shippingService"
       JOBID: "${{ github.run_number }}"
       GITHUBSHA: "${{ github.sha }}"
     secrets:
